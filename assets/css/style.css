@@ -1,0 +1,22 @@
+/* assets/css/style.css
+   Penyesuaian ringan di atas Bootstrap 5 (yang sudah menangani responsivitas dasar). */
+
+body {
+    background-color: #f7f8fa;
+}
+
+.card {
+    border-radius: 0.6rem;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+/* Perkecil padding tabel di layar sempit agar tidak terlalu lebar */
+@media (max-width: 576px) {
+    .table td, .table th {
+        font-size: 0.85rem;
+        padding: 0.4rem;
+    }
+}
